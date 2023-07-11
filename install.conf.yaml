@@ -5,7 +5,13 @@
 - clean: ['~']
 
 - link:
+    ~/.config/tmux/tmux.conf:
+      create: true
+      path: tmux/tmux.conf
+    ~/.config/tmux/tmuxp/:
+      create: true
+      path: tmux/tmuxp/
 
-- create:
+#- create:
 
-- shell:
+#- shell:
