@@ -43,6 +43,10 @@ export STARSHIP_CONFIG="$DOTFILES/starship.toml"
 export NODE_REPL_HISTORY=""
 export npm_config_cache="$XDG_CACHE_HOME/npm"
 
+# RUBY
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+
 # FZF
 # export FZF_DEFAULT_COMMAND="rg --files --hidden --follow --glob '!.git'"
 # export FZF_CTRL_T_COMMAND="FZF_DEFAULT_COMMAND"
