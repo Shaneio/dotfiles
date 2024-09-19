@@ -11,6 +11,7 @@
     ~/.config/tmux/tmuxp/:
       create: true
       path: tmux/tmuxp/
+    ~/.zshenv: zsh/zshenv
 
 #- create:
 
