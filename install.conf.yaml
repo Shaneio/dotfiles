@@ -19,4 +19,6 @@
 
 #- create:
 
-#- shell:
+- shell:
+    - rm -rf $HOME/.config/git
+    - ln -s $HOME/Dropbox/git $HOME/.config/git
