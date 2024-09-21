@@ -2,13 +2,20 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     ~/.config/tmux/tmux.conf:
       create: true
       path: tmux/tmux.conf
     ~/.zshenv: zsh/zshenv
+    ~/.config/zsh/.zshrc: zsh/zshrc
+    ~/.config/starship:
+      create: true
+    ~/.config/karabiner:
+      create: true
+    ~/.config/bat:
+      create: true
 
 #- create:
 
