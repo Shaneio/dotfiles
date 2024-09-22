@@ -4,21 +4,28 @@
 
 - clean: ["~"]
 
+- create:
+    - ~/.config/nvim
+    - ~/.config/tmux
+    - ~/.config/zsh
+
 - link:
-    ~/.config/tmux/tmux.conf:
-      create: true
-      path: tmux/tmux.conf
-    ~/.zshenv: zsh/zshenv
-    ~/.config/zsh/.zshrc: zsh/zshrc
-    ~/.config/starship:
+    ~/.config/bat:
       create: true
     ~/.config/karabiner:
       create: true
-    ~/.config/bat:
+    ~/.config/nvim/init.lua: nvim/init.lua
+    ~/.config/nvim/lua: nvim/lua
+    ~/.config/starship:
       create: true
+    ~/.config/tmux/tmux.conf: tmux/tmux.conf
+    ~/.zshenv: zsh/zshenv
+    ~/.config/zsh/.zshrc: zsh/zshrc
 
 #- create:
 
 - shell:
     - rm -rf $HOME/.config/git
     - ln -s $HOME/Dropbox/git $HOME/.config/git
+    - rm -rf $HOME/Library/Application\ Support/Typinator/Sets
+    - ln -s  $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Library/Typinator $HOME/Library/Application\ Support/Typinator/Sets
