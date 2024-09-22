@@ -1,6 +1,8 @@
 source "$DOTFILES/zsh/zsh-settings/aliases.zsh"
 source "$DOTFILES/zsh/zsh-settings/brew.zsh"
 source "$DOTFILES/zsh/zsh-settings/functions.zsh"
+source "$DOTFILES/zsh/zsh-settings/fzf.zsh"
+source "$DOTFILES/zsh/zsh-settings/nvim_switcher.zsh"
 source "$DOTFILES/zsh/zsh-settings/preferences.zsh"
 
 # +-------------+

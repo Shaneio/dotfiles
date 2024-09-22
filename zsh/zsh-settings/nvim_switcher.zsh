@@ -1,6 +1,6 @@
-alias nvim-chad="NVIM_APPNAME=NvChad nvim"
-alias nvim-lunar="NVIM_APPNAME=LunarVim nvim"
-alias nvim-astro="NVIM_APPNAME=AstroNvim nvim"
+alias nvim-chad="NVIM_APPNAME=nvim-chad nvim"
+alias nvim-lunar="NVIM_APPNAME=nvim-lunar nvim"
+alias nvim-astro="NVIM_APPNAME=nvim-astro nvim"
 
 function nvims() {
   items=("default" "NvChad" "AstroNvim" "LunarVim")

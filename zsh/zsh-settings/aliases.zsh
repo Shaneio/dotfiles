@@ -4,10 +4,10 @@
 
 alias v='f -e nvim'
 
-alias ea="$EDITOR $XDG_CONFIG_HOME/zsh/settings/aliases"
+alias ea="$EDITOR $DOTFILES/zsh/zsh-settings/aliases.zsh"
 alias ee="$EDITOR $HOME/.zshenv"
-alias ez="$EDITOR $XDG_CONFIG_HOME/zsh/.zshrc"
-alias sz="source $XDG_CONFIG_HOME/zsh/.zshrc"
+alias ez="$EDITOR $DOTFILES/zsh/.zshrc"
+alias sz="source $DOTFILES/zsh/.zshrc"
 alias et="$EDITOR $XDG_CONFIG_HOME/tmux/tmux.conf"
 alias eh="$EDITOR $XDG_CONFIG_HOME/hammerspoon/init.lua"
 
@@ -41,13 +41,13 @@ alias man="batman"
 
 alias grep="grep --color=auto"
 
-alias bif="brew install --formula"
-alias bic="brew install --cask"
+alias brf="brew install --formula"
+alias brc="brew install --cask"
 alias bbd="brew bundle dump --force --describe"
-alias blo="brew outdated"
-alias bup="brew upgrade"
-alias bs="brew search"
-alias bi="brew info"
+alias bro="brew outdated"
+alias bru="brew upgrade"
+alias brs="brew search"
+alias bri="brew info"
 
 alias ll='eza -laF --git --ignore-glob=".CFUserTextEncoding|.DS_Store"'
 alias icloud="$HOME/Library/Mobile Documents/com~apple~CloudDocs"
