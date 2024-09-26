@@ -33,7 +33,6 @@ export HOMEBREW_NO_ENV_HINTS
 
 # Other Misc
 export LESSHISTFILE=-
-export NULLCMD='bat'
 export LOCATE_CONFIG="/etc/locate.users.rc" # Locate Command's Database
 export BAT_CONFIG_PATH="$XDG_CONFIG_HOME/bat/bat.conf"
 export GITHUB_USER="Shaneio"

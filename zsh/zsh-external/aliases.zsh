@@ -4,11 +4,12 @@
 
 alias v='f -e nvim'
 
-alias ea="$EDITOR $DOTFILES/zsh/zsh-settings/aliases.zsh"
+alias ea="$EDITOR $DOTFILES/zsh/zsh-external/aliases.zsh"
+alias ep="$EDITOR $DOTFILES/zsh/zsh-external/znap.zsh"
 alias ee="$EDITOR $HOME/.zshenv"
-alias ez="$EDITOR $DOTFILES/zsh/.zshrc"
-alias sz="source $DOTFILES/zsh/.zshrc"
-alias et="$EDITOR $XDG_CONFIG_HOME/tmux/tmux.conf"
+alias ez="$EDITOR $DOTFILES/zsh/zshrc"
+alias sz="source $DOTFILES/zsh/zshrc"
+alias et="$EDITOR $DOTFILES/tmux/tmux.conf"
 alias eh="$EDITOR $XDG_CONFIG_HOME/hammerspoon/init.lua"
 
 alias ga="git add"

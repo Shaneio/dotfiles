@@ -1,9 +1,13 @@
-source "$DOTFILES/zsh/zsh-settings/aliases.zsh"
-source "$DOTFILES/zsh/zsh-settings/brew.zsh"
-source "$DOTFILES/zsh/zsh-settings/functions.zsh"
-source "$DOTFILES/zsh/zsh-settings/fzf.zsh"
-source "$DOTFILES/zsh/zsh-settings/nvim_switcher.zsh"
-source "$DOTFILES/zsh/zsh-settings/preferences.zsh"
+# +------------------+
+# | Source External  |
+# +------------------+
+source "$DOTFILES/zsh/zsh-external/znap.zsh"
+source "$DOTFILES/zsh/zsh-external/aliases.zsh"
+source "$DOTFILES/zsh/zsh-external/brew.zsh"
+source "$DOTFILES/zsh/zsh-external/functions.zsh"
+source "$DOTFILES/zsh/zsh-external/fzf.zsh"
+source "$DOTFILES/zsh/zsh-external/nvim_switcher.zsh"
+source "$DOTFILES/zsh/zsh-external/preferences.zsh"
 
 # +-------------+
 # | PATH        |
@@ -14,7 +18,7 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 
 # Starship
-eval "$(starship init zsh)"
+znap eval starship 'starship init zsh --print-full-init'
 # fzf
 source <(fzf --zsh)
 # fasder (fasd) brew install wyne/tap/fasder
