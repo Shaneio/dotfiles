@@ -19,7 +19,12 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 # Starship
 znap eval starship 'starship init zsh --print-full-init'
+prompt_starship_precmd
+znap prompt
 # fzf
 source <(fzf --zsh)
 # fasder (fasd) brew install wyne/tap/fasder
 eval "$(fasder --init auto aliases)"
+
+
+eval "$(/usr/local/bin/mise activate zsh)"

@@ -36,11 +36,18 @@ export LESSHISTFILE=-
 export LOCATE_CONFIG="/etc/locate.users.rc" # Locate Command's Database
 export BAT_CONFIG_PATH="$XDG_CONFIG_HOME/bat/bat.conf"
 export GITHUB_USER="Shaneio"
-export STARSHIP_CONFIG="$DOTFILES/starship.toml"
+export STARSHIP_CONFIG="$DOTFILES/starship/starship.toml"
 
 # NVM & NPM
 export NODE_REPL_HISTORY=""
 export npm_config_cache="$XDG_CACHE_HOME/npm"
+
+# PERL
+# export PERL_BASE="$HOME/.modules/perl5"
+# export PERL_MM_OPT="INSTALL_BASE=$PERL_BASE"
+# export PERL_MB_OPT="--install_base $PERL_BASE"
+# export PERL5LIB="$PERL_BASE/lib/perl5"
+# export MANPATH="$PERL_BASE/man${MANPATH:+:$MANPATH}"
 
 # FZF
 export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git'"
